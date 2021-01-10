@@ -26,17 +26,17 @@
   },
   "autoload": {
     "psr-4": {
-      "ayoosuff\\MsGraph\\": "src/"
+      "Dcblogdev\\MsGraph\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "ayoosuff\\MsGraph\\MsGraphServiceProvider"
+        "Dcblogdev\\MsGraph\\MsGraphServiceProvider"
       ],
       "aliases": {
-        "MsGraph": "ayoosuff\\MsGraph\\Facades\\MsGraph",
-        "MsGraphAdmin": "ayoosuff\\MsGraph\\Facades\\MsGraphAdmin"
+        "MsGraph": "Dcblogdev\\MsGraph\\Facades\\MsGraph",
+        "MsGraphAdmin": "Dcblogdev\\MsGraph\\Facades\\MsGraphAdmin"
       }
     }
   }
